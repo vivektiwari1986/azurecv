@@ -47,7 +47,7 @@ class AzureCV:
         'detection': self.detectInObj(detect, data)
       })
     response.update({
-      'method': 'describe',
+      'method': 'analyze',
       'haContext': haContext,
       'filePath': params['filePath']
     })

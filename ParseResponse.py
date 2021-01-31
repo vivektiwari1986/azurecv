@@ -33,14 +33,3 @@ class ParseResponse:
       if 'captions' in dataObj['description']:
         return dataObj['description']['captions'][0]
     return ""
-
-# data = {"categories":[{"name":"abstract_","score":0.00390625},{"name":"others_","score":0.0078125}],"tags":[{"name":"floor","confidence":0.9992407560348511},{"name":"indoor","confidence":0.9955368041992188},{"name":"footwear","confidence":0.9339431524276733},{"name":"clothing","confidence":0.8632873296737671},{"name":"person","confidence":0.7471531629562378},{"name":"trousers","confidence":0.5809088349342346}],"description":{"tags":["floor","indoor"],"captions":[{"text":"a dog on a leash in a room with a person standing in the background","confidence":0.4347965717315674}]},"faces":[],"objects":[{"rectangle":{"x":318,"y":21,"w":269,"h":596},"object":"person","confidence":0.67}],"requestId":"7d2dad86-3c48-4198-ab9a-3e790e505c51","metadata":{"height":1080,"width":1920,"format":"Jpeg"}}
-
-# P = ParseResponse()
-# c =  P.clean(data)
-# d = P.getTags(c)
-# e = P.getCaption(c)
-# f = P.getObjects(c)
-# print(d)
-# print(e)
-# print(f)
