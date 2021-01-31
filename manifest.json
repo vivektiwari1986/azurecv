@@ -1,0 +1,8 @@
+{
+    "domain": "azurecv",
+    "name": "Azure Computer Vision Component",
+    "documentation": "https://github.com/kevinvincent/wyzesense",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": ["@vivektiwari1986"]
+}
