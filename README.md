@@ -18,10 +18,10 @@ This component will need access to Azure Cognitive Services Developer account. Y
 10. Note down the endpoint. Lets call this url.
 11. The above two values will be needed in the config for custom component.
 
-## Installation (HACS) - Highly Recommended
-1. Have [HACS](https://github.com/custom-components/hacs) installed, this will allow you to easily update
+## Installation (HACS) - Work in progress
+<!-- 1. Have [HACS](https://github.com/custom-components/hacs) installed, this will allow you to easily update
 2. Add `https://github.com/vivektiwari1986/azurecv` as a [custom repository](https://custom-components.github.io/hacs/usage/settings/#add-custom-repositories) as Type: Integration
-3. Click install under "TBA", restart your instance.
+3. Click install under "TBA", restart your instance. -->
 
 ## Installation (Manual)
 1. Download this repository as a ZIP (green button, top right) and unzip the archive
