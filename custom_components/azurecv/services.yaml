@@ -1,0 +1,29 @@
+# Describes the format for available azure computer vision services
+
+describe:
+  description: Describe an image
+  fields:
+    filepath:
+      description: Path to local image file
+      example: "/usr/local/abc.jpg"
+    fileurl:
+      description: Url to image accessible over internet
+      example: "http://abc.com/def.jpg"
+    haContext:
+      description: A context string that is returned in the response event. Useful to track where the service call was made
+      example: "image-describe-from-place-x"
+analyze:
+  description: Analyze an image
+  fields:
+    filepath:
+      description: Path to local image file
+      example: "/usr/local/abc.jpg"
+    fileurl:
+      description: Url to image accessible over internet
+      example: "http://abc.com/def.jpg"
+    haContext:
+      description: A context string that is returned in the response event. Useful to track where the service call was made
+      example: "image-describe-from-place-x"
+    detect:
+      description: A comma separated list of objects to look for. If found, the event fired will contain booleans indicating that
+      example: 'dog,person'
