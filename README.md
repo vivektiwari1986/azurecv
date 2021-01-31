@@ -42,7 +42,7 @@ azurecv:
 # Usage
 The component can be used to detect any objects and to describe an image. This component exposes two services that can be given an image path.
 
-## Service: azurecz.analyze
+## Service: azurecv.analyze
 This calls the underlyzing azure image analyze REST method
 Example Call to service.
 ```yaml
@@ -119,7 +119,7 @@ Example automation to listen to the event and alert:
           Person Detected on {{ trigger.event.data.haContext }}
 ```
 
-## Service: azurecz.describe
+## Service: azurecv.describe
 This calls the underlyzing azure image describe REST method. this is a more lightweight call and only returns the caption and tags.
 Example Call to service.
 ```yaml
