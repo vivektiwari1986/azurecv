@@ -3,7 +3,7 @@ Custom Component for Home assistant to get image data from Azure Computer Vision
 
 TLDR; You can easily integrate azure computer vision services and detect objects in an image. I personally use this for human detection when nobody is in the home and motionEye detects motion in an image.
 
-<a href="https://www.buymeacoffee.com/vivek86" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 20px !important;width: 103px !important;" ></a>
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="vivek86" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 
 # Setup
 ## Azure Cognitive Developer Account Setup (Free)
