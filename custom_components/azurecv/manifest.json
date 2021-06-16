@@ -4,5 +4,6 @@
     "documentation": "https://github.com/vivektiwari1986/azurecv",
     "requirements": [],
     "dependencies": [],
-    "codeowners": ["@vivektiwari1986"]
+    "codeowners": ["@vivektiwari1986"],
+    "version": "0.0.1"
 }
